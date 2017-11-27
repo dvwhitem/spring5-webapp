@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${PG_S5_URL}
+    username: ${PG_S5_USER}
+    password: ${PG_S5_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
